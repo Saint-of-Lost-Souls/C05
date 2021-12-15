@@ -1,5 +1,3 @@
-#include <unistd.h>
-#include <stdio.h>
 
 int ft_recursive_factorial( int nb)
 {   
@@ -17,6 +15,7 @@ int ft_recursive_factorial( int nb)
     }  
     return (nb);
 }  
+#include <stdio.h>
 
 int main()
 {

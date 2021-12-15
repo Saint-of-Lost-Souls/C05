@@ -1,4 +1,3 @@
-#include <stdio.h>
 
 int ft_sqrt(int nb)
 {
@@ -14,8 +13,9 @@ int ft_sqrt(int nb)
         sqrt = (nb / temp + temp) / 2;
     }
     return(sqrt);
-
 }
+
+#include <stdio.h>
 int main()
 {
     printf("the square root of 25 is: %d", ft_sqrt(25));

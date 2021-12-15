@@ -1,4 +1,3 @@
-#include <stdio.h>
 
 int ft_recursive_power(int nb, int pow)
 {
@@ -11,6 +10,7 @@ int ft_recursive_power(int nb, int pow)
         return (1);
     }
 }
+#include <stdio.h>
 
 int main()
 {
