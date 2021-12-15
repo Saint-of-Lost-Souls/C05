@@ -20,7 +20,7 @@ int ft_recursive_factorial( int nb)
 int main()
 {
     
-    int result = ft_recursive_factorial(3);
+    int result = ft_recursive_factorial(5);
 
     printf("Factorial is %d", result);
     return 0;
