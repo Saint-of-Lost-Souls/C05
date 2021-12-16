@@ -1,14 +1,23 @@
-
-int ft_recursive_power(int nb, int power)
+int     ft_recursive_power(int nb, int power)
 {
-    if (power != 0)
-    {
-        return (nb * ft_recursive_power(nb, power - 1));
-    }
-    else
-    {
-        return (1);
-    }
+        int     result;
+
+        if (power < 0)
+        {
+                return (0);
+        }
+        if (power == 0)
+        {
+                return (1);
+        }
+        result = nb;
+        while (power > 0)
+        {
+                power--;
+                result = nb * ft_recursive_power(nb, power);
+                return (result);
+        }
+        return (result);
 }
 #include <stdio.h>
 
