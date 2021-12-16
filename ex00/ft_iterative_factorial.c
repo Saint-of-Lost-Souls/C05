@@ -6,6 +6,10 @@ int     ft_iterative_factorial(int nb)
         {
                 return (0);
         }
+        if (nb == 0)
+        {
+                return (1);
+        }
         result = 1;
         while (nb)
         {
